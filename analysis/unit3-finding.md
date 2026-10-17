@@ -1,0 +1,5 @@
+The dashboard informed us that the duration of half of the events resulted in timeouts. Therefore, quarterly ranked-mode rewards were frozen. Out of 200 player participation, there were 12 timeouts, which is 6% of the total. And 9 timeouts in 173 player participation is 5.20%.
+
+We duplicated a filter that eliminated 166 records missing disconnect reasons. Only counting rows with reasons increased the overall timeout rate to 35.29%. We duplicated the problem with a calculated value and corrected it two ways. The dashboard query was not provided, so we are unable to verify whether the near-50% value in the dashboard was calculated differently.
+
+The dashboard should sum all eligible records, and correctly count network timeouts. The three corrected queries all returned the same 8 players affected in ranked. The true rate of timeouts don't support a blanket freeze on rewards. The team should take a look at the original calculation and rules for reward eligibility, and then release rewards for eligible players while fixing individual exceptions.
