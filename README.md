@@ -1,7 +1,10 @@
+# EX603 Game Telemetry Database
 # Simplified TFT Game Telemetry Database
 
-Jonah Camacho · EX 603 · Game Telemetry
-
+**Student:** Jonah Camacho
+**Course:** EX603
+**Course:** EX 603
+**Theme:** Game Telemetry
 A PostgreSQL database for a simplified TFT-style game, with reports on player activity and network timeouts.
 
 ## Domain
@@ -77,7 +80,7 @@ I saved my query and output captures in the [screenshots folder](screenshots/).
 
 In the video I walk through how I checked the dashboard rate, compared matches, and used a window function to look at the monthly trend.
 
-<!-- Replace this comment with [Watch my Unit 6 presentation](VIDEO_URL) once the video is uploaded. -->
+https://youtu.be/Ng6TqANVxtg
 
 ## How to run it
 
